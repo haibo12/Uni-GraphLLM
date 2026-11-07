@@ -1,0 +1,43 @@
+# outputs, weights, logs
+/results/
+/saved_model/
+/wandb/
+/logs/
+/back/
+*.log
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.zip
+*.gz
+*.tar
+*.tgz
+
+# python / editor / local notes
+**/__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.claude/
+*.swp
+*~
+.DS_Store
+/HANDOFF.md
+/rebuttal.md
+
+# raw dataset blobs under data/ (Python sources there stay tracked)
+/data/gft_data_utils/gft_data/KG/*/
+/data/gft_data_utils/gft_data/single_graph/wikics/metadata.json
+/data/splits/
